@@ -1,6 +1,7 @@
 //problem statement -> merge two sorted array 
 #include<iostream>
 using namespace std;
+//function to merge two sorted array
 void merge(int a[],int n,int b[],int m,int c[]){
     int i=0;
     int j=0;
@@ -28,7 +29,7 @@ void merge(int a[],int n,int b[],int m,int c[]){
         j++;
     }
 }
-
+//funtion to print an array
 void print(int arr[],int size){
     for(int i=0;i<size;i++){
         cout<<arr[i]<<"  ";
